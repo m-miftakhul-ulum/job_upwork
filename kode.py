@@ -101,10 +101,9 @@ def send_wa(nama_job, link_job):
 
 
 if __name__ == "__main__":
-  
+    get_job()
     
-    while True:
-        get_job()
-        time.sleep(30)
+  
+
      
     
