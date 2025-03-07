@@ -76,7 +76,7 @@ def send_wa(nama_job, link_job):
         "countryCode": "62",
         "followup": 0,
     }
-    headers = {"Authorization": f"{os.getenv('wa api')}"}
+    headers = {"Authorization": f"{os.getenv('KODE')}"}
     try:
         response = requests.post(url, data=data, headers=headers)
         if response.status_code == 200:
