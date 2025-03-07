@@ -87,18 +87,6 @@ def send_wa(nama_job, link_job):
         print("An error occurred:", str(e))
 
 
-# def play_sound():
-#     winsound.PlaySound("yo.wav", winsound.SND_FILENAME)
-
-
-# def notif_up(link):
-#     toaster = ToastNotifier()
-#     toaster.show_toast(
-#         "Notifikasi Python",
-#         link,
-#         duration=10,
-#     )
-
 
 if __name__ == "__main__":
     get_job()
